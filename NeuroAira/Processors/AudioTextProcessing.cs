@@ -19,7 +19,7 @@ namespace NeuroAira.Processors
 		{
 			try
 			{
-				using var api = new OpenAIClient("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");
+				using var api = new OpenAIClient("key");
 				var request = new AudioTranscriptionRequest(Path.GetFullPath(voicePath), language: "ru");
 				var response = await api.AudioEndpoint.CreateTranscriptionAsync(request);
 
