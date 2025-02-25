@@ -35,7 +35,7 @@ namespace NeuroAira.Processors
 
 			var metaContent = JsonConvert.DeserializeObject<MetaConversationContent>(metaConversation.Content);
 
-			using var api = new OpenAIClient("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");
+			using var api = new OpenAIClient("key");
 
 			var messages = new List<Message>
 			{
