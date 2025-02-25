@@ -8,9 +8,7 @@ namespace NeuroAira.Telegram
 {
 	public class TelegramBotManager
 	{
-		// for test 7089762296:AAHL-4NUo3asfLOFNVoZjmYBIId630MzWpc
-		// actual 7086939896:AAHBhY49meuq2brduLHVHg4rfNmMnEVNbxQ
-		public static TelegramBotClient Client = new TelegramBotClient(token: "7086939896:AAHBhY49meuq2brduLHVHg4rfNmMnEVNbxQ");
+		public static TelegramBotClient Client = new TelegramBotClient(token: "key");
 
 		public TelegramBotManager ()
 		{
